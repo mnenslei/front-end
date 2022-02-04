@@ -1,14 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-}
-img {
-  width: fit-content;
-  height: fit-content;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -62,11 +51,6 @@ body {
 .container {
   padding: 3em;
   min-width:70%;
-}
-
-.footer {
-  background: white;
-  padding: 1em;
 }
 
 .view {
@@ -168,4 +152,16 @@ table.table .avatar {
 	border-radius: 50%;
 	vertical-align: middle;
 	margin-right: 10px;
+}
+
+.recipe-details{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  row-gap: 15px;
+  font-size: normal;
+  font-weight: normal;
+  margin: 1%;
+  padding: 3%;
 }

@@ -5,7 +5,6 @@ import RecipeItem from "./RecipeItem";
 
 const Recipes = (props) => {
     const { recipes } = props;
-    console.log(props)
 
     return (
         <div className='col'>

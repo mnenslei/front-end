@@ -19,15 +19,15 @@ function App() {
       </header>
       <Home />
         <Switch>
+          <Route exact path="/recipes/:id">
+            <Recipe />
+          </Route>
           <Route exact path='/recipes'>
             <Recipes />
           </Route>
           <Route exact path='/add/recipes'>
             <AddRecipeForm />
           </Route>
-          <Route path="/recipe/:id">
-              <Recipe />
-            </Route>
         </Switch>
     </div>
   );

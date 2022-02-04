@@ -30,19 +30,19 @@ const Movie = (props) => {
 
                         <section className="recipe-details">
                             <div>
-                                <label>Dish Name: <strong>{recipe.title}</strong></label>
+                                <label><strong>Dish Name:</strong> {recipe.dish}</label>
                             </div>
                             <div>
-                                <label>Dish Background: <strong>{recipe.background}</strong></label>
+                                <label><strong>Dish Background:</strong> {recipe.background}</label>
+                            </div>
+                            <div className='ingredients'>
+                                <label><strong>Ingredients:</strong> {recipe.ingredients}</label>
                             </div>
                             <div>
-                                <label>Ingredients: <strong>{recipe.ingredients}</strong></label>
+                                <label><strong>Instructions:</strong> {recipe.instructions}</label>
                             </div>
                             <div>
-                                <label>Instructions: <strong>{recipe.instructions}</strong></label>
-                            </div>
-                            <div>
-                                <label>Notes: <strong>{recipe.notes}</strong></label>
+                                <label><strong>Notes:</strong> {recipe.notes}</label>
                             </div>
                         </section>
                         
